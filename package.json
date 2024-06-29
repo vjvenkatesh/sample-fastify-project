@@ -1,0 +1,23 @@
+{
+  "name": "my-fastify-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "algoliasearch": "^4.10.5",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.28.0",
+    "fastify-plugin": "^4.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.1.4"
+  }
+}
